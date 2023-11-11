@@ -1,1 +1,1 @@
-from . import patients
+from . import patients, doctors
