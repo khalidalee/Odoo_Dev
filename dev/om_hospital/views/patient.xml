@@ -13,6 +13,7 @@
                         <field name="age"/>
                         <field name="gender"/>
                         <field name="doctor_id"/>
+                        <field name="email"/>
                         <!-- <field name="doctor_id" options="{'no_open': True, 'no_create': True}"/> -->
                         <field name="capitalized_name" class="form_field_highlighted"/>
                         <field name="tag_ids" widget="many2many_tags"/>
@@ -36,6 +37,7 @@
                 <field name="gender"/>
                 <field name="capitalized_name"/>
                 <field name="doctor_id"/>
+                <field name="email"/>
 
             </tree>
         </field>

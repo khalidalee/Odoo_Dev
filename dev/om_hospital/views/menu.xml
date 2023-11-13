@@ -17,5 +17,10 @@
             parent="menu_hospital_root"
             sequence="20"
     />
-
+    <menuitem
+            id="menu_hospital_actions"
+            name="Actions"
+            parent="menu_hospital_root"
+            sequence="20"
+    />
 </odoo>
