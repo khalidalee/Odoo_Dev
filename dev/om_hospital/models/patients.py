@@ -13,6 +13,7 @@ class HospitalPatients(models.Model):
     gender = fields.Selection([('male', 'Male'), ('female', 'Female'), ('others', 'Others')], String='Gender', tracking=True)
     capitalized_name = fields.Char(String='Capitalized Name', compute='_compute_capitalized_name', store=True)
     doctor_id = fields.Many2one('hospital.doctor', String="Doctor")
+    tag_ids = fields.Many2many("res.partner.industry", string="Tags")
 
     @api.constrains('is_child', 'age')
     def _check_child_age(self):

@@ -9,5 +9,11 @@
         'views/menu.xml',
         'views/patient.xml',
         'views/doctor.xml',
-    ]
+    ],
+    'assets':{
+        "web.assets_backend":[
+            "/om_hospital/static/src/css/om_hospital.css",
+        ],
+    }
+
 }

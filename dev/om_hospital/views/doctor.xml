@@ -11,6 +11,7 @@
                         <field name="name"/>
                         <field name="reference"/>
                         <field name="gender"/>
+                        <field name="email_id"/>
                         <field name="active" invisible="1"/>
                     </group>
                 </sheet>
@@ -30,6 +31,7 @@
                 <field name="name"/>
                 <field name="reference"/>
                 <field name="gender"/>
+                <field name="email_id"/>
             </tree>
         </field>
     </record>
@@ -42,6 +44,7 @@
                 <field name="name"/>
                 <field name="reference"/>
                 <field name="gender"/>
+                <field name="email_id"/>
                 <separator/>
                 <filter name="archived" string="Archived" domain="[('active', '=', False)]" />
             </search>
