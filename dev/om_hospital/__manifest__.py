@@ -9,7 +9,7 @@
         'views/menu.xml',
         'views/patient.xml',
         'views/doctor.xml',
-        'views/actions.xml'
+        'views/check_python.xml'
     ],
     'assets':{
         "web.assets_backend":[

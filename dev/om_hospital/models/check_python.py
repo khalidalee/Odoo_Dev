@@ -4,8 +4,8 @@ from odoo.exceptions import ValidationError
 
 import re
 
-class HospitalActions(models.Model):
-    _name = "hospital.actions"
+class HospitalCheckPython(models.Model):
+    _name = "hospital.check_python"
 
     def check_code(self):
         print("Button clicked!")

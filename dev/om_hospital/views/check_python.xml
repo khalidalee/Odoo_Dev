@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_hospital_check_python_form" model="ir.ui.view">
+        <field name="name">hospital.check_python.form</field>
+        <field name="model">hospital.check_python</field>
+        <field name="arch" type="xml">
+            <form string="Check Python Form">
+                <header>
+                    <button name="check_code" string="Send e-mail" type="object" class="oe_highlight"/>
+                </header>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_hospital_check_python" model="ir.actions.act_window">
+        <field name="name">Check Python</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hospital.check_python</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <menuitem
+            id="menu_check_python"
+            name="Check Python"
+            parent="menu_hospital_actions"
+            action="action_hospital_check_python"
+            sequence="10"
+    />
+</odoo>
