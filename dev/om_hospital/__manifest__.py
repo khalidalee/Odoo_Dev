@@ -14,6 +14,9 @@
     'assets':{
         "web.assets_backend":[
             "/om_hospital/static/src/css/om_hospital.css",
+            # "/om_hospital/common/util/shopify/shopify_read.py",
+            # "/om_hospital/models/shopify_read.py",
+            # "om_hospital/models/testPython.py",
         ],
     }
 

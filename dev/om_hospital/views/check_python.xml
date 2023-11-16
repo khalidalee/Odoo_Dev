@@ -6,8 +6,16 @@
         <field name="arch" type="xml">
             <form string="Check Python Form">
                 <header>
-                    <button name="check_code" string="Send e-mail" type="object" class="oe_highlight"/>
+                    <button name="getShopifyData" string="Get Shopify Data" type="object" class="oe_highlight"/>
+                    <button name="testExternalPythonFile" string="Check Python Code" type="object" class="oe_highlight"/>
+                    <button name="send_email" string="Send e-mail" type="object" class="oe_highlight"/>
                 </header>
+                <sheet>
+                    <group>
+<!--                        <button name="check_code" string="Send e-mail" type="object" class="oe_highlight"/>-->
+                        <field name="output"/>
+                    </group>
+                </sheet>
             </form>
         </field>
     </record>
