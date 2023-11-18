@@ -61,7 +61,23 @@ class HospitalCheckPython(models.Model):
             # print(tmp_text)
             self.output = "{} <p><hr><p> {}".format(self.output, tmp_text)
 
+        print(tmp_text)
+
     def testExternalPythonFile(self):
         t = testPython()
         t.printText()
         return None
+
+    def oepn_email_marketing_mailing(self):
+        self.output = "Opening Email Marketing 'Mailing' Interface!"
+        return {
+            'name': ('Send Email from Hospital Module'),
+            'view_type': 'form',
+            'view_mode': 'tree,form',
+            'res_model': 'mailing.mailing',
+            # 'res_model': 'mailing.list',
+            'view_id': False,
+            'type': 'ir.actions.act_window',
+            # 'flags': {'initial_mode': 'edit'},
+            # 'target': 'current'
+        }

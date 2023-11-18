@@ -9,6 +9,7 @@
                     <button name="getShopifyData" string="Get Shopify Data" type="object" class="oe_highlight"/>
                     <button name="testExternalPythonFile" string="Check Python Code" type="object" class="oe_highlight"/>
                     <button name="send_email" string="Send e-mail" type="object" class="oe_highlight"/>
+                    <button name="oepn_email_marketing_mailing" string="Open Mailing of Email Marketing " type="object" class="oe_highlight"/>
                 </header>
                 <sheet>
                     <group>
