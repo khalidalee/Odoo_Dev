@@ -9,7 +9,8 @@ import shopify
 # from . import Shopify_Read as shRead
 # from om_hospital.common.util.shopify.shopify_read.py import Shopify_Read
 
-class HospitalCheckPython(models.Model):
+# class HospitalCheckPython(models.Model):
+class HospitalCheckPython(models.TransientModel):
     _name = "hospital.check_python"
     output = fields.Text(String='Name')
 
@@ -66,6 +67,10 @@ class HospitalCheckPython(models.Model):
     def testExternalPythonFile(self):
         t = testPython()
         t.printText()
+        return None
+
+    def testPython(self):
+        self.output = "Testing Internal Python"
         return None
 
     def oepn_email_marketing_mailing(self):

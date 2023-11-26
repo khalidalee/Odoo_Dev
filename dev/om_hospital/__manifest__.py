@@ -7,6 +7,7 @@
     'data': [
         'security/ir.model.access.csv',
         'security/security.xml',
+        'wizard/checkPythonWizard.xml',
         'views/menu.xml',
         'views/patient.xml',
         'views/doctor.xml',

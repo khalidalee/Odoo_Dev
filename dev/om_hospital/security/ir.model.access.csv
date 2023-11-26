@@ -2,3 +2,4 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 om_hospital.access_hospital_patient,access_hospital_patient,om_hospital.model_hospital_patient,om_hospital.group_hospital_patient,1,1,1,1
 om_hospital.access_hospital_doctor,access_hospital_doctor,om_hospital.model_hospital_doctor,om_hospital.group_hospital_doctor,1,1,1,1
 om_hospital.access_hospital_check_python,access_hospital_check_python,om_hospital.model_hospital_check_python,om_hospital.group_hospital_actions,1,1,1,1
+om_hospital.access_check_python_wizard,access_check_python_wizard,om_hospital.model_check_python_wizard,om_hospital.group_hospital_actions,1,1,1,1
